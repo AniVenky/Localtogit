@@ -12,7 +12,7 @@ test('@smoke Register and Checkout flow', async ({ page }) => {
   const product = new ProductPage(page);
   const cart = new CartPage(page);
   const checkout = new CheckoutPage(page);
-
+//venky
   const email = generateRandomEmail();
   const password = 'test@1234';
 
