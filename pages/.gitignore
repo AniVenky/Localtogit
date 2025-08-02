@@ -1,0 +1,39 @@
+# Node modules
+node_modules/
+
+# Playwright downloads (browsers etc.)
+playwright/.cache/
+.playwright/
+
+# Test reports
+allure-results/
+allure-report/
+test-results/
+*.png
+*.zip
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+
+# VSCode settings
+.vscode/
+
+# Coverage reports
+coverage/
+
+# Output videos and screenshots
+videos/
+screenshots/
+
+# Ignore any IDE-specific folders
+.idea/
+*.sublime-workspace
+*.sublime-project
