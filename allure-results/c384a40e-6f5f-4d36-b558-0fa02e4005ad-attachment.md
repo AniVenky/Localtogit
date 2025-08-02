@@ -1,0 +1,439 @@
+# Page snapshot
+
+```yaml
+- paragraph: This is a demo store to test your test automaiton scripts. No orders will be fulfilled. If you are facing any issue, email us at hello@softwaretestingboard.com.
+- banner:
+  - link "Skip to Content":
+    - /url: "#contentarea"
+  - list:
+    - listitem:
+      - link:
+        - /url: https://buymeacoffee.com/softwaretestingb
+    - listitem:
+      - link "Sign In":
+        - /url: https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS93b21lbi90b3BzLXdvbWVuLmh0bWw%2C/
+      - text: or
+    - listitem:
+      - link "Create an Account":
+        - /url: https://magento.softwaretestingboard.com/customer/account/create/
+  - link "store logo":
+    - /url: https://magento.softwaretestingboard.com/
+  - link " My Cart 2 2 items":
+    - /url: https://magento.softwaretestingboard.com/checkout/cart/
+  - text:  Search
+  - combobox " Search"
+  - button "Search" [disabled]:  Search
+  - list:
+    - listitem
+- tablist:
+  - tabpanel:
+    - navigation:
+      - menu:
+        - menuitem "What's New"
+        - menuitem " Women"
+        - menuitem " Men"
+        - menuitem " Gear"
+        - menuitem " Training"
+        - menuitem "Sale"
+- list:
+  - listitem:
+    - link "Home":
+      - /url: https://magento.softwaretestingboard.com/
+    - text: 
+  - listitem:
+    - link "Women":
+      - /url: https://magento.softwaretestingboard.com/women.html
+    - text: 
+  - listitem:
+    - strong: Tops
+- main:
+  - heading "Tops Items 1-12 of 50" [level=1]: Tops
+  - alert:
+    - text:  You added Breathe-Easy Tank to your
+    - link "shopping cart":
+      - /url: https://magento.softwaretestingboard.com/checkout/cart/
+    - text: .
+  - alert:
+    - text:  You added Maya Tunic to your
+    - link "shopping cart":
+      - /url: https://magento.softwaretestingboard.com/checkout/cart/
+    - text: .
+  - strong: View as
+  - strong:  Grid
+  - link "View as  List":
+    - /url: "#"
+    - text:  List
+  - paragraph: Items 1-12 of 50
+  - text: Sort By
+  - combobox "Sort By Sort By":
+    - option "Position" [selected]
+    - option "Product Name"
+    - option "Price"
+  - link " Set Descending Direction":
+    - /url: "#"
+  - list:
+    - listitem:
+      - link "Breathe-Easy Tank":
+        - /url: https://magento.softwaretestingboard.com/breathe-easy-tank.html
+        - img "Breathe-Easy Tank"
+      - strong:
+        - link "Breathe-Easy Tank":
+          - /url: https://magento.softwaretestingboard.com/breathe-easy-tank.html
+      - text: "Rating:   70%"
+      - link "2 Reviews":
+        - /url: https://magento.softwaretestingboard.com/breathe-easy-tank.html#reviews
+      - text: As low as $34.00
+      - listbox "Size":
+        - option "XS"
+        - option "S"
+        - option "M"
+        - option "L"
+        - option "XL"
+      - listbox "Color":
+        - option "Purple"
+        - option "White"
+        - option "Yellow"
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Antonia Racer Tank":
+        - /url: https://magento.softwaretestingboard.com/antonia-racer-tank.html
+        - img "Antonia Racer Tank"
+      - strong:
+        - link "Antonia Racer Tank":
+          - /url: https://magento.softwaretestingboard.com/antonia-racer-tank.html
+      - text: "Rating:   60%"
+      - link "3 Reviews":
+        - /url: https://magento.softwaretestingboard.com/antonia-racer-tank.html#reviews
+      - text: As low as $34.00
+      - listbox "Size":
+        - option "XS"
+        - option "S"
+        - option "M"
+        - option "L"
+        - option "XL"
+      - listbox "Color":
+        - option "Black"
+        - option "Purple"
+        - option "Yellow"
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Maya Tunic":
+        - /url: https://magento.softwaretestingboard.com/maya-tunic.html
+        - img "Maya Tunic"
+      - strong:
+        - link "Maya Tunic":
+          - /url: https://magento.softwaretestingboard.com/maya-tunic.html
+      - text: "Rating:   80%"
+      - link "1 Review":
+        - /url: https://magento.softwaretestingboard.com/maya-tunic.html#reviews
+      - text: As low as $29.00
+      - listbox "Size":
+        - option "XS" [checked]
+        - option "S"
+        - option "M"
+        - option "L"
+        - option "XL"
+      - listbox "Color":
+        - option "Green" [checked]
+        - option "White"
+        - option "Yellow"
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Chloe Compete Tank":
+        - /url: https://magento.softwaretestingboard.com/chloe-compete-tank.html
+        - img "Chloe Compete Tank"
+      - strong:
+        - link "Chloe Compete Tank":
+          - /url: https://magento.softwaretestingboard.com/chloe-compete-tank.html
+      - text: "Rating:   73%"
+      - link "3 Reviews":
+        - /url: https://magento.softwaretestingboard.com/chloe-compete-tank.html#reviews
+      - text: As low as $39.00
+      - listbox "Size":
+        - option "XS"
+        - option "S"
+        - option "M"
+        - option "L"
+        - option "XL"
+      - listbox "Color":
+        - option "Blue"
+        - option "Red"
+        - option "Yellow"
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Leah Yoga Top":
+        - /url: https://magento.softwaretestingboard.com/leah-yoga-top.html
+        - img "Leah Yoga Top"
+      - strong:
+        - link "Leah Yoga Top":
+          - /url: https://magento.softwaretestingboard.com/leah-yoga-top.html
+      - text: As low as $39.00
+      - listbox "Size":
+        - option "XS"
+        - option "S"
+        - option "M"
+        - option "L"
+        - option "XL"
+      - listbox "Color":
+        - option "Orange"
+        - option "Purple"
+        - option "White"
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Nona Fitness Tank":
+        - /url: https://magento.softwaretestingboard.com/nona-fitness-tank.html
+        - img "Nona Fitness Tank"
+      - strong:
+        - link "Nona Fitness Tank":
+          - /url: https://magento.softwaretestingboard.com/nona-fitness-tank.html
+      - text: As low as $39.00
+      - listbox "Size":
+        - option "XS"
+        - option "S"
+        - option "M"
+        - option "L"
+        - option "XL"
+      - listbox "Color":
+        - option "Blue"
+        - option "Purple"
+        - option "Red"
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Nora Practice Tank":
+        - /url: https://magento.softwaretestingboard.com/nora-practice-tank.html
+        - img "Nora Practice Tank"
+      - strong:
+        - link "Nora Practice Tank":
+          - /url: https://magento.softwaretestingboard.com/nora-practice-tank.html
+      - text: As low as $39.00
+      - listbox "Size":
+        - option "XS"
+        - option "S"
+        - option "M"
+        - option "L"
+        - option "XL"
+      - listbox "Color":
+        - option "Orange"
+        - option "Purple"
+        - option "Red"
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Zoe Tank":
+        - /url: https://magento.softwaretestingboard.com/zoe-tank.html
+        - img "Zoe Tank"
+      - strong:
+        - link "Zoe Tank":
+          - /url: https://magento.softwaretestingboard.com/zoe-tank.html
+      - text: "Rating:   53%"
+      - link "3 Reviews":
+        - /url: https://magento.softwaretestingboard.com/zoe-tank.html#reviews
+      - text: As low as $29.00
+      - listbox "Size":
+        - option "XS"
+        - option "S"
+        - option "M"
+        - option "L"
+        - option "XL"
+      - listbox "Color":
+        - option "Green"
+        - option "Orange"
+        - option "Yellow"
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Bella Tank":
+        - /url: https://magento.softwaretestingboard.com/bella-tank.html
+        - img "Bella Tank"
+      - strong:
+        - link "Bella Tank":
+          - /url: https://magento.softwaretestingboard.com/bella-tank.html
+      - text: "Rating:   80%"
+      - link "2 Reviews":
+        - /url: https://magento.softwaretestingboard.com/bella-tank.html#reviews
+      - text: As low as $29.00
+      - listbox "Size":
+        - option "XS"
+        - option "S"
+        - option "M"
+        - option "L"
+        - option "XL"
+      - listbox "Color":
+        - option "Black"
+        - option "Blue"
+        - option "Orange"
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Lucia Cross-Fit Bra":
+        - /url: https://magento.softwaretestingboard.com/lucia-cross-fit-bra.html
+        - img "Lucia Cross-Fit Bra"
+      - strong:
+        - link "Lucia Cross-Fit Bra":
+          - /url: https://magento.softwaretestingboard.com/lucia-cross-fit-bra.html
+      - text: "Rating:   40%"
+      - link "3 Reviews":
+        - /url: https://magento.softwaretestingboard.com/lucia-cross-fit-bra.html#reviews
+      - text: As low as $39.00
+      - listbox "Size":
+        - option "XS"
+        - option "S"
+        - option "M"
+        - option "L"
+        - option "XL"
+      - listbox "Color":
+        - option "Black"
+        - option "Orange"
+        - option "Purple"
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Prima Compete Bra Top":
+        - /url: https://magento.softwaretestingboard.com/prima-compete-bra-top.html
+        - img "Prima Compete Bra Top"
+      - strong:
+        - link "Prima Compete Bra Top":
+          - /url: https://magento.softwaretestingboard.com/prima-compete-bra-top.html
+      - text: "Rating:   60%"
+      - link "3 Reviews":
+        - /url: https://magento.softwaretestingboard.com/prima-compete-bra-top.html#reviews
+      - text: As low as $24.00
+      - listbox "Size":
+        - option "XS"
+        - option "S"
+        - option "M"
+        - option "L"
+        - option "XL"
+      - listbox "Color":
+        - option "Blue"
+        - option "Purple"
+        - option "Yellow"
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+    - listitem:
+      - link "Celeste Sports Bra":
+        - /url: https://magento.softwaretestingboard.com/celeste-sports-bra.html
+        - img "Celeste Sports Bra"
+      - strong:
+        - link "Celeste Sports Bra":
+          - /url: https://magento.softwaretestingboard.com/celeste-sports-bra.html
+      - text: "Rating:   67%"
+      - link "3 Reviews":
+        - /url: https://magento.softwaretestingboard.com/celeste-sports-bra.html#reviews
+      - text: As low as $39.00
+      - listbox "Size":
+        - option "XS"
+        - option "S"
+        - option "M"
+        - option "L"
+        - option "XL"
+      - listbox "Color":
+        - option "Green"
+        - option "Red"
+        - option "Yellow"
+      - button "Add to Cart"
+      - button "Add to Wish List":  Add to Wish List
+      - button "Add to Compare":  Add to Compare
+  - strong: Page
+  - list "Page":
+    - listitem:
+      - strong: You're currently reading page 1
+    - listitem:
+      - link "Page 2":
+        - /url: https://magento.softwaretestingboard.com/women/tops-women.html?p=2
+    - listitem:
+      - link "Page 3":
+        - /url: https://magento.softwaretestingboard.com/women/tops-women.html?p=3
+    - listitem:
+      - link "Page 4":
+        - /url: https://magento.softwaretestingboard.com/women/tops-women.html?p=4
+    - listitem:
+      - link "Page 5":
+        - /url: https://magento.softwaretestingboard.com/women/tops-women.html?p=5
+    - listitem:
+      - link " Page Next":
+        - /url: https://magento.softwaretestingboard.com/women/tops-women.html?p=2
+  - text: Show
+  - combobox:
+    - option "12" [selected]
+    - option "24"
+    - option "36"
+  - text: per page
+  - heading "Shopping Options" [level=2]
+  - tablist:
+    - tab "Category "
+    - tab "Style "
+    - tab "Size "
+    - tab "Climate "
+    - tab "Color "
+    - tab "Eco Collection "
+    - tab "Erin Recommends "
+    - tab "Material "
+    - tab "New "
+    - tab "Pattern "
+    - tab "Performance Fabric "
+    - tab "Price "
+    - tab "Sale "
+  - heading "Compare Products" [level=2]
+  - text: You have no items to compare.
+  - heading "My Wish List" [level=2]
+  - text: You have no items in your wish list.
+- contentinfo:
+  - list:
+    - listitem:
+      - link "Notes":
+        - /url: https://softwaretestingboard.com/magento-store-notes/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=notes_promotion
+    - listitem:
+      - link "Practice API Testing using Magento 2":
+        - /url: https://softwaretestingboard.com/practice-api-testing-using-magento-2/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=API_Testing_Promo
+    - listitem:
+      - link "Write for us":
+        - /url: https://softwaretestingboard.com/write-for-us/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=write4us
+    - listitem:
+      - link "Subscribe":
+        - /url: https://softwaretestingboard.com/subscribe/?utm_source=magento_store&utm_medium=banner&utm_campaign=notes_promo&utm_id=email_subscribe
+  - list:
+    - listitem:
+      - link "Search Terms":
+        - /url: https://magento.softwaretestingboard.com/search/term/popular/
+    - listitem:
+      - link "Privacy and Cookie Policy":
+        - /url: https://magento.softwaretestingboard.com/privacy-policy-cookie-restriction-mode/
+    - listitem:
+      - link "Advanced Search":
+        - /url: https://magento.softwaretestingboard.com/catalogsearch/advanced/
+    - listitem:
+      - link "Orders and Returns":
+        - /url: https://magento.softwaretestingboard.com/sales/guest/form/
+- text: We know you have an assignment to complete. If this site is not functioning as expected, drop us an email. Copyright © 2013-present
+- link "Magento":
+  - /url: "#"
+  - img
+  - text: Magento
+- text: ", Inc. All rights reserved."
+- link "Adobe Commerce cloud solutions":
+  - img
+  - text: Adobe Commerce cloud solutions
+- insertion:
+  - iframe
+- img
+- link "Go to shopping options for Sweater": Sweater
+- button "Close shopping anchor"
+```

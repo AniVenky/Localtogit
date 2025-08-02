@@ -1,0 +1,442 @@
+# Page snapshot
+
+```yaml
+- main:
+  - link "Skip to content":
+    - /url: "#skip-to-content"
+  - link "Skip to navigation menu":
+    - /url: "#skiptonavigation"
+  - link:
+    - /url: /
+  - status
+  - status
+  - textbox "Search field with suggestions. To begin navigating suggestions, while focused, press Down Arrow. To send, press Enter."
+  - button "Search"
+  - navigation:
+    - listitem:
+      - button "Track<br />Order Track Order":
+        - img "Track<br />Order"
+        - text: Track Order
+    - listitem:
+      - button "My<br />Account My Account Login / Register" [expanded]:
+        - img "My<br />Account"
+        - text: My Account Login / Register
+      - textbox "Please enter username": test128@yopmail.com
+      - text: Username *
+      - textbox "Please enter password": Testtest@13579
+      - text: Password (Case Sensitive) *
+      - link "Show":
+        - /url: javascript:void(0)
+      - checkbox "wis.registerlogin.component.rememberme  Remember me wis.registerlogin.component.rememberme"
+      - text: wis.registerlogin.component.rememberme  Remember me
+      - link "Forgot Password?":
+        - /url: javascript:void(0)
+      - button "Login"
+      - text: Or Enjoy exclusive offers and superior discounts when you shop with us
+      - button "Register"
+  - navigation:
+    - navigation:
+      - listitem:
+        - link "Categories":
+          - /url: /c/categories
+      - listitem:
+        - link "Brands":
+          - /url: /b/brands
+      - listitem:
+        - link "Promotions":
+          - /url: /promotions
+      - listitem:
+        - link "Catalogue":
+          - /url: /catalogues
+      - listitem:
+        - link "Help":
+          - /url: /help
+      - listitem:
+        - link "Clearance":
+          - /url: /clearance
+    - navigation
+    - navigation:
+      - listitem:
+        - link "Our Branches Our Branches":
+          - /url: /branches
+          - img "Our Branches"
+          - text: Our Branches
+  - button "Login"
+  - text: or
+  - link "Register":
+    - /url: /register
+  - text: to view price and availability
+  - link "Free Delivery over $200*":
+    - /url: /delivery-details
+    - img
+    - emphasis: Free Delivery over $200*
+  - navigation "Carousel Banner":
+    - listitem "Carousel Slide 1"
+    - listitem "Carousel Slide 2"
+    - listitem "Carousel Slide 3"
+    - listitem "Carousel Slide 4"
+    - listitem "Carousel Slide 5"
+    - listitem "Carousel Slide 6"
+    - listitem "Carousel Slide 7"
+    - listitem "Carousel Slide 8"
+  - link "NEW JBS Tape Measures555":
+    - /url: https://stg2.blackwoods.com.au/jbs/b/557547
+    - img "NEW JBS Tape Measures555"
+  - link "EOFY Essentials Sale on Now!":
+    - /url: https://stg2.blackwoods.com.au/hose-hose-fittings/hydraulic-fittings/fittings-hydraulic-accessories/parker-hannifin-reducer-straight-outside-diameter-10mm-gr10-06lms/p/00296433
+    - img "EOFY Essentials Sale on Now!"
+  - link "Earthtrack Solar Mega G2X Light Tower. Hinged Design for easy Transport. Made for Australian Environments.":
+    - /url: https://stg2.blackwoods.com.au/jbs/b/557547
+    - img "Earthtrack Solar Mega G2X Light Tower. Hinged Design for easy Transport. Made for Australian Environments."
+  - link "Larzep - High Pressure Hydraulic Equirement":
+    - /url: https://stg2.blackwoods.com.au/clothing/workwear-men-s-shirts/mens-cotton-t-shirt-short-sleeve/tshirt-ss-s1nftox-or-cotton-165grm-xl/p/08660351
+    - img "Larzep - High Pressure Hydraulic Equirement"
+  - link "3M HF-800SD Half Face Respirators":
+    - /url: https://stg2.blackwoods.com.au/blackwoods-range-catalogue?c=range-catalogue-2021&page=1&cvp002
+    - img "3M HF-800SD Half Face Respirators"
+  - link "Karcher HD Pressure Washers, Include EOFY Bonus Offers":
+    - /url: https://stg2.blackwoods.com.au/health-wellbeing/hydration/sqwincher-sqweeze-frozen/sqwincher-sqweeze-frozen-10pk/p/08423932
+    - img "Karcher HD Pressure Washers, Include EOFY Bonus Offers"
+  - link "ESAB E400800200 Rampage Volt ES200I Battery Stick Welding Machine":
+    - /url: https://stg2.blackwoods.com.au/cigweld/b/557560
+    - img "ESAB E400800200 Rampage Volt ES200I Battery Stick Welding Machine"
+  - link "Clipsal 56C310-GY 56 Series Switched Socket Outlet - 3 Flat Pin - 250V - 10A - Grey":
+    - /url: https://stg2.blackwoods.com.au/searchpage#q=cigweld
+    - img "Clipsal 56C310-GY 56 Series Switched Socket Outlet - 3 Flat Pin - 250V - 10A - Grey"
+  - button "Carousel Previous": Previous
+  - button "Carousel Next": Next
+  - heading "Featured Products" [level=1]
+  - link "View All Featured Products":
+    - /url: /searchpage#f-ec_promo=P1&ref=hp
+  - img
+  - link "08423932-SQ159200201":
+    - /url: /health-wellbeing/hydration/sqwincher-sqweeze-frozen/sqwincher-sqweeze-frozen-10pk/p/08423932
+    - img "08423932-SQ159200201"
+  - text: Sqwincher
+  - heading "Sqwincher® Frozen Squeeze Pops - Pack of 10" [level=5]:
+    - link "Sqwincher® Frozen Squeeze Pops - Pack of 10":
+      - /url: /health-wellbeing/hydration/sqwincher-sqweeze-frozen/sqwincher-sqweeze-frozen-10pk/p/08423932
+  - link "00876881-ISHH21":
+    - /url: /electrical/portable-lighting/intrinsically-safe-torches/energizer-ishh21-intrinsically-safe-torch-led-150-lumens-uses-2-x-aa-batteries-not-included/p/00876881
+    - img "00876881-ISHH21"
+  - text: Energizer
+  - heading "Energizer ISHH21 - Intrinsically Safe Torch LED 150 Lumens (Uses 2 x AA Batteries - not include..." [level=5]:
+    - link "Energizer ISHH21 - Intrinsically Safe Torch LED 150 Lumens (Uses 2 x AA Batteries - not include...":
+      - /url: /electrical/portable-lighting/intrinsically-safe-torches/energizer-ishh21-intrinsically-safe-torch-led-150-lumens-uses-2-x-aa-batteries-not-included/p/00876881
+  - link "04172232-6836":
+    - /url: /hygiene-cleaning/cleaning-chemicals/isowipe-bactericidal-wipes/refill-isowipe-72sht-6836/p/04172232
+    - img "04172232-6836"
+  - text: Halyard
+  - heading "Halyard - Isowipe Bactericidal Wipes - Refill Pack - 75 Sheets" [level=5]:
+    - link "Halyard - Isowipe Bactericidal Wipes - Refill Pack - 75 Sheets":
+      - /url: /hygiene-cleaning/cleaning-chemicals/isowipe-bactericidal-wipes/refill-isowipe-72sht-6836/p/04172232
+  - img
+  - link "00905641-00905641,00019669-00019669":
+    - /url: /workplace-safety/safety-signs/prosafe-danger-signs-keep-out-authorised-personnel-only/sign-danger-keep-out-auth-600x450-mtl/p/00019669
+    - img "00905641-00905641,00019669-00019669"
+  - text: PROSAFE
+  - heading "PROSAFE HybUGPIM_12" [level=5]:
+    - link "PROSAFE HybUGPIM_12":
+      - /url: /workplace-safety/safety-signs/prosafe-danger-signs-keep-out-authorised-personnel-only/sign-danger-keep-out-auth-600x450-mtl/p/00019669
+  - button "Previous": ‹
+  - button "Next": ›
+  - link "EOFY Catalogue":
+    - /url: https://stg2.blackwoods.com.au/delivery-details
+    - img "EOFY Catalogue"
+  - link "Larzep - High Pressure Hydraulic Equirement":
+    - /url: https://stg2.blackwoods.com.au/electrical/portable-lighting/intrinsically-safe-torches/energizer-ishh21-intrinsically-safe-torch-led-150-lumens-uses-2-x-aa-batteries-not-included/p/00876881
+    - img "Larzep - High Pressure Hydraulic Equirement"
+  - link "Cigweld BlueVenom Multi-Process Welder Series FROM pricing, logo and images of welders":
+    - /url: https://stg2.blackwoods.com.au/cigweld/b/557560
+    - img "Cigweld BlueVenom Multi-Process Welder Series FROM pricing, logo and images of welders"
+  - heading "Services" [level=1]
+  - link "CM3 Unlock an ecosystem of leading contractor management and compliance solutions.":
+    - /url: /cm3
+    - heading "CM3" [level=2]
+    - text: Unlock an ecosystem of leading contractor management and compliance solutions.
+  - link "Inventory Solutions Let us help you better manage inventory, reduce cost and improve productivity.":
+    - /url: /technical-solutions/inventory-solutions
+    - heading "Inventory Solutions" [level=2]
+    - text: Let us help you better manage inventory, reduce cost and improve productivity.
+  - link "Welding & Gas Blackwoods has a stand out offering in gas, welding and abrasives.":
+    - /url: /technical-solutions/welding-gas
+    - heading "Welding & Gas" [level=2]
+    - text: Blackwoods has a stand out offering in gas, welding and abrasives.
+  - link "Signage We offer customised signage solutions specific to your needs with access to the latest technology.":
+    - /url: /technical-solutions/signage
+    - heading "Signage" [level=2]
+    - text: We offer customised signage solutions specific to your needs with access to the latest technology.
+  - link "Power Tools Our dedicated power tool and fastener specialists provide end to end solution and more.":
+    - /url: /technical-solutions/powertools
+    - heading "Power Tools" [level=2]
+    - text: Our dedicated power tool and fastener specialists provide end to end solution and more.
+  - link "Safety Specialist expertise and relationships to assess your hazards.":
+    - /url: /technical-solutions/safety
+    - heading "Safety" [level=2]
+    - text: Specialist expertise and relationships to assess your hazards.
+  - link "Lifting & Rigging Bullivants, offers expertise to identify and access your high risk activities.":
+    - /url: /technical-solutions/lifting-rigging
+    - heading "Lifting & Rigging" [level=2]
+    - text: Bullivants, offers expertise to identify and access your high risk activities.
+  - button "Previous": ‹
+  - button "Next": ›
+  - heading "Trending Products You May Like" [level=1]
+  - img
+  - link:
+    - /url: https://www.blackwoods.com.au/health-wellbeing/hydration/sqwincher-qwik-stik/sqwincher-qwik-stiks-mixed-pack-50/p/00620729
+    - img
+  - link "Sqwincher":
+    - /url: https://www.blackwoods.com.au/health-wellbeing/hydration/sqwincher-qwik-stik/sqwincher-qwik-stiks-mixed-pack-50/p/00620729
+  - heading "Sqwincher Qwik Stiks - Mixed Pack - Pack of 50" [level=5]:
+    - link "Sqwincher Qwik Stiks - Mixed Pack - Pack of 50":
+      - /url: https://www.blackwoods.com.au/health-wellbeing/hydration/sqwincher-qwik-stik/sqwincher-qwik-stiks-mixed-pack-50/p/00620729
+  - img
+  - link:
+    - /url: https://www.blackwoods.com.au/health-wellbeing/hydration/sqwincher-sqweeze-frozen/sqwincher-sqweeze-pops-zero-sugar-assorted-flavours-pack-of-10/p/03097812
+    - img
+  - link "Sqwincher":
+    - /url: https://www.blackwoods.com.au/health-wellbeing/hydration/sqwincher-sqweeze-frozen/sqwincher-sqweeze-pops-zero-sugar-assorted-flavours-pack-of-10/p/03097812
+  - heading "Sqwincher Sqweeze Pops Zero Sugar - Assorted Flavours - Pack of 10" [level=5]:
+    - link "Sqwincher Sqweeze Pops Zero Sugar - Assorted Flavours - Pack of 10":
+      - /url: https://www.blackwoods.com.au/health-wellbeing/hydration/sqwincher-sqweeze-frozen/sqwincher-sqweeze-pops-zero-sugar-assorted-flavours-pack-of-10/p/03097812
+  - img
+  - link:
+    - /url: https://www.blackwoods.com.au/tools-hand-measuring-precision/measuring-tools/jbs-tape-measure-10m-x-30mm-metric-magnetic/jbs-measuring-tape-metric-magnetic-10mx30mm/p/03521486
+    - img
+  - link:
+    - /url: https://www.blackwoods.com.au/tools-hand-measuring-precision/measuring-tools/jbs-tape-measure-10m-x-30mm-metric-magnetic/jbs-measuring-tape-metric-magnetic-10mx30mm/p/03521486
+  - link "JBS":
+    - /url: https://www.blackwoods.com.au/tools-hand-measuring-precision/measuring-tools/jbs-tape-measure-10m-x-30mm-metric-magnetic/jbs-measuring-tape-metric-magnetic-10mx30mm/p/03521486
+  - heading "JBS Measuring Tape - Metric - Magnetic - 10mx30mm" [level=5]:
+    - link "JBS Measuring Tape - Metric - Magnetic - 10mx30mm":
+      - /url: https://www.blackwoods.com.au/tools-hand-measuring-precision/measuring-tools/jbs-tape-measure-10m-x-30mm-metric-magnetic/jbs-measuring-tape-metric-magnetic-10mx30mm/p/03521486
+  - img
+  - link:
+    - /url: https://www.blackwoods.com.au/electrical/hvac/industrial-fan/fan-wall-strom-black-750mm-200w/p/03624646
+    - img
+  - link:
+    - /url: https://www.blackwoods.com.au/electrical/hvac/industrial-fan/fan-wall-strom-black-750mm-200w/p/03624646
+  - link "Strom":
+    - /url: https://www.blackwoods.com.au/electrical/hvac/industrial-fan/fan-wall-strom-black-750mm-200w/p/03624646
+  - heading "Strom Industrial Wall Fan - Oscillating - 3 Speed - 3417L/s - 200W - Black - 750mm" [level=5]:
+    - link:
+      - /url: https://www.blackwoods.com.au/electrical/hvac/industrial-fan/fan-wall-strom-black-750mm-200w/p/03624646
+    - link "Strom Industrial Wall Fan - Oscillating - 3 Speed - 3417L/s - 200W - Black - 750mm":
+      - /url: https://www.blackwoods.com.au/electrical/hvac/industrial-fan/fan-wall-strom-black-750mm-200w/p/03624646
+  - img
+  - link:
+    - /url: "\thttps://www.blackwoods.com.au/workplace-safety/lockout-tagout/padlocks-lightweight-xenoy-safety-lockout-410-master-lock/padlock-safety-red-master-0410red/p/01152063"
+    - img
+  - link:
+    - /url: "\thttps://www.blackwoods.com.au/workplace-safety/lockout-tagout/padlocks-lightweight-xenoy-safety-lockout-410-master-lock/padlock-safety-red-master-0410red/p/01152063"
+  - link "Master Lock":
+    - /url: "\thttps://www.blackwoods.com.au/workplace-safety/lockout-tagout/padlocks-lightweight-xenoy-safety-lockout-410-master-lock/padlock-safety-red-master-0410red/p/01152063"
+  - heading "Master Lock 0410RED Safety Lockout Padlock - Red" [level=5]:
+    - link "Master Lock 0410RED Safety Lockout Padlock - Red":
+      - /url: "\thttps://www.blackwoods.com.au/workplace-safety/lockout-tagout/padlocks-lightweight-xenoy-safety-lockout-410-master-lock/padlock-safety-red-master-0410red/p/01152063"
+  - img
+  - link:
+    - /url: "\thttps://www.blackwoods.com.au/respiratory-protection/respirators-disposable/3m-aura-series-disposable-respirators-p2/respirator-disp-3m-9322a-p2-10/p/03576621"
+    - img
+  - link:
+    - /url: "\thttps://www.blackwoods.com.au/respiratory-protection/respirators-disposable/3m-aura-series-disposable-respirators-p2/respirator-disp-3m-9322a-p2-10/p/03576621"
+  - link "3M":
+    - /url: "\thttps://www.blackwoods.com.au/respiratory-protection/respirators-disposable/3m-aura-series-disposable-respirators-p2/respirator-disp-3m-9322a-p2-10/p/03576621"
+  - heading "3M - Particulate Respirator - 9322+P2, 10/Box - XA010017854" [level=5]:
+    - link "3M - Particulate Respirator - 9322+P2, 10/Box - XA010017854":
+      - /url: "\thttps://www.blackwoods.com.au/respiratory-protection/respirators-disposable/3m-aura-series-disposable-respirators-p2/respirator-disp-3m-9322a-p2-10/p/03576621"
+  - img
+  - link:
+    - /url: https://www.blackwoods.com.au/tools-hand-measuring-precision/measuring-tools/stanley-measuring-tape-yellow-metric-imperial/tape-8m-x-25mm-stanley-30-393-tylon/p/02751967
+    - img
+  - link:
+    - /url: https://www.blackwoods.com.au/tools-hand-measuring-precision/measuring-tools/stanley-measuring-tape-yellow-metric-imperial/tape-8m-x-25mm-stanley-30-393-tylon/p/02751967
+  - link "Stanley":
+    - /url: https://www.blackwoods.com.au/tools-hand-measuring-precision/measuring-tools/stanley-measuring-tape-yellow-metric-imperial/tape-8m-x-25mm-stanley-30-393-tylon/p/02751967
+  - heading "Stanley Measuring Tape - 8m x 25mm - Yellow - 30-393" [level=5]:
+    - link "Stanley Measuring Tape - 8m x 25mm - Yellow - 30-393":
+      - /url: https://www.blackwoods.com.au/tools-hand-measuring-precision/measuring-tools/stanley-measuring-tape-yellow-metric-imperial/tape-8m-x-25mm-stanley-30-393-tylon/p/02751967
+  - img
+  - link:
+    - /url: https://www.blackwoods.com.au/p/05850310
+    - img
+  - link:
+    - /url: https://www.blackwoods.com.au/p/05850310
+  - link "Kleenex":
+    - /url: https://www.blackwoods.com.au/p/05850310
+  - heading "Kleenex - 4735 Toilet Tissue 2 Ply - 400 Sheet Roll - Carton of 48 Rolls" [level=5]:
+    - link "Kleenex - 4735 Toilet Tissue 2 Ply - 400 Sheet Roll - Carton of 48 Rolls":
+      - /url: https://www.blackwoods.com.au/p/05850310
+  - img
+  - link:
+    - /url: https://www.blackwoods.com.au/p/01521955
+    - img
+  - link:
+    - /url: https://www.blackwoods.com.au/p/01521955
+  - link "Flexovit":
+    - /url: https://www.blackwoods.com.au/p/01521955
+  - heading "Zirconia Flap Disc - Flexovit Megaline Blue Heavy Duty R860 - P80 - 125x22mm - 80 Grit - 78072761222" [level=5]:
+    - link "Zirconia Flap Disc - Flexovit Megaline Blue Heavy Duty R860 - P80 - 125x22mm - 80 Grit - 78072761222":
+      - /url: https://www.blackwoods.com.au/p/01521955
+  - img
+  - link:
+    - /url: "\thttps://www.blackwoods.com.au/p/03967205"
+    - img
+  - link:
+    - /url: "\thttps://www.blackwoods.com.au/p/03967205"
+  - link "CRC":
+    - /url: "\thttps://www.blackwoods.com.au/p/03967205"
+  - heading "CRC 2016 - CO Contact Cleaner - Clear - 350 gram" [level=5]:
+    - link "CRC 2016 - CO Contact Cleaner - Clear - 350 gram":
+      - /url: "\thttps://www.blackwoods.com.au/p/03967205"
+  - button "Previous": ‹
+  - button "Next": ›
+  - heading "Featured Brands" [level=1]
+  - link:
+    - /url: /prosafe/b/557520
+  - link:
+    - /url: /3m/b/557642
+  - link:
+    - /url: /jbs/b/557547
+  - link:
+    - /url: /dewalt/b/558085
+  - link:
+    - /url: /workhorse/b/557870/brand
+  - link:
+    - /url: /dy-mark/b/557781
+  - link:
+    - /url: /kingcraft/b/557760
+  - link:
+    - /url: /ansell/b/557579
+  - link:
+    - /url: /strom/b/558268
+  - link:
+    - /url: /harveys/b/558846
+  - link:
+    - /url: /polypak/b/557645
+  - link:
+    - /url: /milwaukee/b/557549
+  - heading "Why Choose Blackwoods?" [level=1]
+  - heading "Personalised Trading Terms" [level=2]
+  - text: Managing cash flow in your business can be challenging. Depending on the individual needs of your business, we can offer 30 day trading terms with agreed account limits.
+  - heading "Click and Collect" [level=2]
+  - text: Choose the method of delivery that suits you - have your order delivered or opt to order online and collect in-store. We'll notify you as soon as it is ready for collection.
+  - heading "Australia Wide Distribution Network" [level=2]
+  - text: Our large network of branches and distribution centres, consisting of almost 50 locations, ensures you can get what you need, when you need it, wherever you are.
+  - heading "Blackwoods Spotlight" [level=1]
+  - link "View All Blackwoods Spotlight":
+    - /url: https://blog.blackwoods.com.au
+  - figure
+  - 'heading "Case Study: On-site Vending Machines" [level=3]'
+  - paragraph: Canada Bay Council became the first council in the Sydney Metro area to adopt an on-site vending machine solution, and the benefits have been widespread.
+  - button "Read More"
+  - figure:
+    - img "ledlenser2.png"
+  - heading "Apparel Made Using Recycled Plastic Bottles" [level=3]
+  - paragraph: How do we best care for our world, particularly its people, environment, and climate? This is one of the most important and pressing issues of our age.
+  - button "Read More"
+  - figure
+  - heading "How Often Should You Change Speedglas Consumables?" [level=3]
+  - paragraph: Read more to find out the recommended change frequencies for PAPR filters and core spare parts for your Speedglas welding helmet.
+  - button "Read More"
+  - figure
+  - 'heading "Lux VS Lumens: Watts the Difference??" [level=3]'
+  - paragraph: What is the difference between Lumens and Lux? Why is it helpful to know and why should you consider this before making a purchase?
+  - button "Read More"
+  - button "Previous": ‹
+  - button "Next": ›
+  - paragraph: Subscribe to receive our latest deals
+  - checkbox "Special Offers"
+  - text: Special Offers
+  - checkbox "Workwear"
+  - text: Workwear
+  - checkbox "Safety"
+  - text: Safety
+  - checkbox "Hygiene & Cleaning"
+  - text: Hygiene & Cleaning
+  - checkbox "Electrical"
+  - text: Electrical
+  - checkbox "Welding"
+  - text: Welding
+  - checkbox "Tools"
+  - text: Tools
+  - checkbox "General"
+  - text: General
+  - textbox "Enter your email address"
+  - button "Subscribe" [disabled]
+  - tablist:
+    - tab "Blackwoods":
+      - button "Blackwoods" [expanded]
+    - tabpanel "Blackwoods":
+      - list:
+        - listitem:
+          - link "About Us":
+            - /url: /aboutus
+        - listitem:
+          - link "Contact Us":
+            - /url: /contact-us
+        - listitem:
+          - link "Our Branches":
+            - /url: /branches
+        - listitem:
+          - link "Help":
+            - /url: /help
+    - tab "Customer":
+      - button "Customer"
+    - tabpanel "Customer":
+      - list:
+        - listitem:
+          - link "Track Order":
+            - /url: /trackorder
+        - listitem:
+          - link "Trading Account":
+            - /url: /trading-account
+        - listitem:
+          - link "View Invoices":
+            - /url: /help/invoices-payment
+        - listitem:
+          - link "Product Recalls & Notices":
+            - /url: /product-recalls-notices
+    - tab "Resources":
+      - button "Resources"
+    - tabpanel "Resources":
+      - list:
+        - listitem:
+          - link "Product Corrections":
+            - /url: /product-corrections
+        - listitem:
+          - link "Safety Data Sheets":
+            - /url: http://www.csinfosafe.com/CSIau/Security/account_login.aspx?ClientID=EC85EF3A-D08F-4F01-84A6-55B8391F1B59
+        - listitem:
+          - link "Delivery Details":
+            - /url: /delivery-details
+        - listitem:
+          - link "Blackwoods Knows":
+            - /url: https://blog.blackwoods.com.au
+    - tab "Information":
+      - button "Information"
+    - tabpanel "Information":
+      - list:
+        - listitem:
+          - link "Supplier Portal":
+            - /url: /supplier-portal
+        - listitem:
+          - link "Policies":
+            - /url: /policies-terms
+        - listitem:
+          - link "Terms & Conditions":
+            - /url: /terms-conditions
+        - listitem:
+          - link "Terms of Use":
+            - /url: /terms-of-use
+  - text: "Follow us on:"
+  - link:
+    - /url: https://www.facebook.com/BlackwoodsAU/
+  - link:
+    - /url: https://www.linkedin.com/company/blackwoods/
+  - link:
+    - /url: https://www.youtube.com/channel/UCfA8meUWjOmhLQKsUGnLOsQ/featured
+  - text: © Copyright 2025, J. Blackwood & Son Pty Ltd, trading as Blackwoods. All Rights Reserved
+- status
+- status
+```
