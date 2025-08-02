@@ -5,7 +5,7 @@ const { RegisterPage } = require('../pages/RegisterPage');
 const { ProductPage } = require('../pages/ProductPage');
 const { CartPage } = require('../pages/CartPage');
 const { CheckoutPage } = require('../pages/CheckoutPage');
-
+//anila
 test('@smoke Register and Checkout flow', async ({ page }) => {
   const home = new HomePage(page);
   const register = new RegisterPage(page);
